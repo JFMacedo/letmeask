@@ -14,7 +14,18 @@
   cursor: pointer;
   border: none;
 
-  transition: filter 200ms;
+  transition: all 200ms;
+
+  &.outlined {
+    background-color: transparent;
+    border: 1px solid #835AFD;
+    color: #835AFD;
+  }
+
+  &.outlined:hover {
+  background-color: #835AFD;
+  color: #FFFFFF;
+  }
 
   &:not(:disabled):hover {
     filter: brightness(0.9)
