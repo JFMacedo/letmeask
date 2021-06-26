@@ -1,46 +1,59 @@
-# Getting Started with Create React App
+<div align="center">
+  <img src=".github/logo.svg" alt="Let Me Ask logo">
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Let Me Ask
 
-## Available Scripts
+[![Author](https://img.shields.io/badge/author-jfmacedo-835AFD?style=plastic)](https://github.com/JFMacedo)
+[![Languages](https://img.shields.io/github/languages/count/JFMacedo/letmeask?color=%23835AFD&style=plastic)](#)
+[![Stars](https://img.shields.io/github/stars/JFMacedo/letmeask?color=835AFD&style=plastic)](https://github.com/JFmacedo/letmeask/stargazers)
+[![](https://img.shields.io/badge/-deploy-%23835AFD?style=plastic)](https://letmeask-c5fd1.web.app)
 
-In the project directory, you can run:
+<h4 align="center">
+  Let Me Ask é uma plataforma para que criadores de conteúdo possam organizar as perguntas de sua audiência.
+</h4>
 
-### `yarn start`
+![Let Me Ask preview](.github/preview.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Tecnologias
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Esse projeto foi desenvolvido com as seguintes tecnologias.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [ReactJS](https://reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Firebase Authentication](https://firebase.google.com/products/auth)
+- [Firebase Realtime Database](https://firebase.google.com/products/realtime-database)
 
-### `yarn build`
+## 💻 Rodando o projeto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Requirements
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Você precisa ter instalado o [Node.js](https://nodejs.org/en/download/) e o [Yarn](https://yarnpkg.com/) para rodar esse projeto.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Clone o projeto e acesse o diretório**
 
-### `yarn eject`
+```bash
+$ git clone https://github.com/JFMacedo/letmeask.git && cd letmeask
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Siga as instruções**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+# Instalar as dependências
+$ yarn
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Lembre de configurar seu .env.local seguindo o .env.exemple
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Rode o servidor web
+$ yarn start
+```
 
-## Learn More
+O aplicativo será acessível no browser em `http://localhost:3000`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Desenvolvido por [Jean Fernandes de Macedo](https://github.com/JFMacedo)
+
+[![Linkedin Badge](https://img.shields.io/badge/-Jean%20Fernandes%20de%20Macedo-0077B5?style=plastic&logo=Linkedin&link=https://www.linkedin.com/in/jean-fernandes-de-macedo-b843a3194/)](https://www.linkedin.com/in/jean-fernandes-de-macedo-b843a3194/) 
+[![Gmail Badge](https://img.shields.io/badge/-jfmacedo91@gmail.com-c14438?style=plastic&logo=Gmail&logoColor=white&link=mailto:jfmacedo91@gmail.com)](mailto:jfmacedo91@gmail.com)s

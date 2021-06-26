@@ -4,10 +4,30 @@
   padding: 24px;
   border-radius: 8px;
   background-color: #FEFEFE;
+  border: 1px solid #FEFEFE;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+  transition: all 200ms;
 
   p {
     color: #29292E;
+  }
+
+  &.highlighted {
+    background-color: #F4F0FF;
+    border: 1px solid #834AFD;
+
+    footer .user-info span {
+      color: #29292E;
+    }
+  }
+
+  &.answered {
+    background-color: #DBDCDD;
+    border: 1px solid #DBDCDD;
+
+    footer .user-info img {
+      filter: grayscale(100%);
+    }
   }
 
   footer {
@@ -34,6 +54,11 @@
       }
     }
 
+    > div {
+      display: flex;
+      gap: 16px;
+    }
+
     button {
       display: flex;
       align-items: center;
@@ -46,11 +71,15 @@
         color: #737380;
       }
 
+      img {
+        cursor: pointer;
+      }
+
       svg {
         color: #737380;
         transition: all 200ms;
         cursor: pointer;
-        margin-bottom: 10px;
+        margin-bottom: 8px;
 
         &.liked {
           color: #E559F9;
